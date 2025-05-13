@@ -4,9 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/logout.css">
 </head>
 <body>
-    <h1>Home</h1>
-    <button>Logout</button>
+     <div class="perfil">
+        <img src="https://via.placeholder.com/100" alt="Imagem de Perfil" id="imagemPerfil">
+        <h2 id="nomeUsuario"></h2>
+        <p id="idadeUsuario"></p>
+        <p id="descricaoUsuario"></p>
+        <button class="botao" onclick="alterarNome()">Alterar Nome</button>
+    </div>
+
+    <header>
+        <h1>Home</h1>
+        <button id="btn-logout">Logout</button>
+    </header>
+
+
+
+    <script src="../assets/js/home.js"></script>
 </body>
 </html>
